@@ -2,11 +2,6 @@ import boto3
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
-# translate = boto3.client(service_name='translate', region_name='ap-south-1',aws_access_key_id='AKIAZSEAAAEC4VR3J6NE', aws_secret_access_key='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', use_ssl=True)
-# result = translate.translate_text(Text="Today is Sunday...",
-#                                   SourceLanguageCode="en",
-#                                   TargetLanguageCode="hi")
-# print(f'TranslatedText: {result["TranslatedText"]}')
 
 def combine_feature(data):
     feature=[]
