@@ -19,19 +19,16 @@ The Real-Time News Aggregator is a web application designed to streamline the co
 
 ## Setup and Installation
 1. **Clone the Repository**
-   git clone (https://github.com/ShahVandit/AI-Based-News-Aggregator.git)
-   cd AI-Based-News-Aggregator
+   `git clone https://github.com/ShahVandit/AI-Based-News-Aggregator.git`
+   `cd AI-Based-News-Aggregator`
 
 2. **Install Dependencies**
-   npm install
-   pip install -r requirements.txt
+   `npm install`
+   `pip install -r requirements.txt`
 
 3. **Run the Application**
-   // Start the frontend
-   npm start
-
-   // Run the Django server
-   python manage.py runserver
+   `npm start`
+   `python manage.py runserver`
 
 ## Usage
 After starting the application, navigate to `localhost:3000` in your web browser to view the news aggregator. Interact with the voice assistant by clicking the microphone icon and speaking commands to navigate through the application.
